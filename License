@@ -1,0 +1,22 @@
+MIT License
+
+Copyright (c) 2026 - Edwin Romero Espinoza
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+--------------------------------------------------------------------------------------------------------------------------------------------
+Por la presente, se otorga permiso, de forma gratuita, a toda persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software"), para utilizarlo sin restricciones, incluyendo, entre otros, los derechos de uso, copia, modificación, fusión, publicación, distribución, sublicencia y/o venta de copias del Software, y para permitir que las personas a quienes se les proporcione el Software hagan lo mismo, sujeto a las siguientes condiciones:
+
+El aviso de derechos de autor anterior y este aviso de permiso deberán incluirse en todas las copias o partes sustanciales del Software.
+
+### 🔹 Un ejemplo real más completo
+Algo tipo:
+
+```csharp
+[HasPermission("Reservations.Create")]
+[HttpPost]
+public IActionResult CreateReservation()
+{
+    return Ok();
+}
